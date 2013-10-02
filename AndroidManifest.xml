@@ -22,6 +22,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".BioHarness"
+                  android:screenOrientation ="portrait"
+                  android:configChanges = "keyboardHidden|orientation">
+		</activity>
     </application>
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+ <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
 
 </manifest>
